@@ -39,7 +39,7 @@ LFUCache.prototype.put = function (key, value) {
 
         if (theItem == undefined) {
 
-            // if we're full, we need to lose something.
+            // if we're full, we need to lose something..
             if (this.size == this.capacity) {
 
                 this.size = this.size - 1
