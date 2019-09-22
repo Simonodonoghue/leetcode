@@ -18,9 +18,6 @@ var cameraCount = 0
 exports.minCameraCover = function(root) {
     cameraCount = 0
         
-    if (!root.left && !root.right) {
-        return 1
-    }
     
     recurseNode(root)
         
